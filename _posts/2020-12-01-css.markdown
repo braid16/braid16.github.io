@@ -1,0 +1,36 @@
+# CSS 知识总结
+
+## 浏览器渲染过程
+1、根据HTML构建HTML树
+2、根据CSS构建CSS树
+3、将两棵树合并成一颗渲染树
+4、布局（文档流、盒模型、计算大小和位置）
+5、绘制（把边框颜色、文字颜色、阴影画出来
+6、compose合成
+
+## transform
+四个常用功能
+1、位移 translate
+2、缩放 scale
+3、旋转 rotate
+4、 倾斜 skew
+
+
+## 经验
+* 一般都需要配合transition 过渡
+* inline 元素不支持transform, 需要先变成block
+
+## transition
+* transition: 属性名 时长 过渡方式  延迟
+* 例子 transition: left 200ms linear
+* 可以用逗号分隔两个不同属性
+* 可以用 all代表所有属性
+
+##  @keyframes 完整语法
+* 一种写法是 from to
+* 另一种写法是百分数
+
+## animation
+* 语法   
+* animation: 时长 | 过渡方式 | 延迟 | 次数 | 方向 | 填充模式 | 是否暂停 | 动画名;
+
