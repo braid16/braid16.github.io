@@ -1,0 +1,4 @@
+# 编程常用的需要的代码段
+ - html 结构
+ - html 结构带jquery bootstrap
+ - rails的crud controller
